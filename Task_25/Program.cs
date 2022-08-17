@@ -2,8 +2,8 @@
 // 3, 5 -> 243 (3⁵)
 // 2, 4 -> 16
 
-
-Console.Write("Введите число А:");
+Console.Clear();
+Console.Write("Введите число А: ");
 int num1 = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите число В: ");
@@ -14,6 +14,6 @@ for (int i = 0; i < num2; i++)
 {
     num1_num2 *= num1;
 }
-Console.WriteLine($"{num1} ^ {num2} = {num1_num2}");
+Console.WriteLine($"{num1} в степени {num2} = *{num1_num2}*");
 Console.ReadKey();
 
